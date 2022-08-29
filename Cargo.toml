@@ -1,0 +1,12 @@
+[package]
+name = "atsamda1_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+atsamd-hal = { version = "0.15.1", default-features = false, features = ["samd21j-rt", "unproven"] }
+cortex-m = "0.7"
+cortex-m-rt = { version = "0.7", features = ["device"] }
+defmt = "0.3"
+defmt-rtt = "0.3"
+panic-probe = { version = "0.3", features = ["print-defmt"] }
