@@ -1,7 +1,7 @@
 #![no_std]
 #![no_main]
 
-use panic_probe as _;
+use panic_halt as _;
 
 use atsamd_hal as _;
 use cortex_m_rt::entry;

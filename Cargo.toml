@@ -8,4 +8,5 @@ atsamd-hal = { version = "0.15.1", default-features = false, features = ["samd21
 cortex-m = "0.7"
 cortex-m-rt = { version = "0.7", features = ["device"] }
 rtt-target = { version = "0.3.0", features = ["cortex-m"] }
-panic-probe = "0.3"
+# panic-probe = "0.3"
+panic-halt = "0.2"
