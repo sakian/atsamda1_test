@@ -1,6 +1,6 @@
 [target.'cfg(all(target_arch = "arm", target_os = "none"))']
 runner = "probe-run --chip ATSAMD21J16B" # Almost identical to the ATSAMDA1G16B
-#runner = "probe-run --chip ATSAMDA1G16B --verbose"
+#runner = "probe-run --chip ATSAMDA1G16B -v"
 rustflags = [
   "-C",
   "link-arg=-Tlink.x",
